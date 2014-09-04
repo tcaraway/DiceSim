@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD9B3AD719B7F265002650D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9B3AD619B7F265002650D3 /* Foundation.framework */; };
+		CD9B3AD919B7F265002650D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9B3AD819B7F265002650D3 /* CoreGraphics.framework */; };
+		CD9B3ADB19B7F265002650D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9B3ADA19B7F265002650D3 /* UIKit.framework */; };
+		CD9B3AE119B7F265002650D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD9B3ADF19B7F265002650D3 /* InfoPlist.strings */; };
+		CD9B3AE319B7F265002650D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9B3AE219B7F265002650D3 /* main.m */; };
+		CD9B3AE719B7F265002650D3 /* TLCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9B3AE619B7F265002650D3 /* TLCAppDelegate.m */; };
+		CD9B3AEA19B7F265002650D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9B3AE819B7F265002650D3 /* Main.storyboard */; };
+		CD9B3AED19B7F265002650D3 /* TLCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9B3AEC19B7F265002650D3 /* TLCViewController.m */; };
+		CD9B3AEF19B7F265002650D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9B3AEE19B7F265002650D3 /* Images.xcassets */; };
+		CD9B3AF619B7F265002650D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9B3AF519B7F265002650D3 /* XCTest.framework */; };
+		CD9B3AF719B7F265002650D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9B3AD619B7F265002650D3 /* Foundation.framework */; };
+		CD9B3AF819B7F265002650D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9B3ADA19B7F265002650D3 /* UIKit.framework */; };
+		CD9B3B0019B7F265002650D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD9B3AFE19B7F265002650D3 /* InfoPlist.strings */; };
+		CD9B3B0219B7F265002650D3 /* RollTheDiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9B3B0119B7F265002650D3 /* RollTheDiceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9B3AF919B7F265002650D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9B3ACB19B7F265002650D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9B3AD219B7F265002650D3;
+			remoteInfo = RollTheDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD9B3AD319B7F265002650D3 /* RollTheDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollTheDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9B3AD619B7F265002650D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD9B3AD819B7F265002650D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD9B3ADA19B7F265002650D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD9B3ADE19B7F265002650D3 /* RollTheDice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RollTheDice-Info.plist"; sourceTree = "<group>"; };
+		CD9B3AE019B7F265002650D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD9B3AE219B7F265002650D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD9B3AE419B7F265002650D3 /* RollTheDice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RollTheDice-Prefix.pch"; sourceTree = "<group>"; };
+		CD9B3AE519B7F265002650D3 /* TLCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCAppDelegate.h; sourceTree = "<group>"; };
+		CD9B3AE619B7F265002650D3 /* TLCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCAppDelegate.m; sourceTree = "<group>"; };
+		CD9B3AE919B7F265002650D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD9B3AEB19B7F265002650D3 /* TLCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCViewController.h; sourceTree = "<group>"; };
+		CD9B3AEC19B7F265002650D3 /* TLCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCViewController.m; sourceTree = "<group>"; };
+		CD9B3AEE19B7F265002650D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD9B3AF419B7F265002650D3 /* RollTheDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollTheDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9B3AF519B7F265002650D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD9B3AFD19B7F265002650D3 /* RollTheDiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RollTheDiceTests-Info.plist"; sourceTree = "<group>"; };
+		CD9B3AFF19B7F265002650D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD9B3B0119B7F265002650D3 /* RollTheDiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollTheDiceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9B3AD019B7F265002650D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9B3AD919B7F265002650D3 /* CoreGraphics.framework in Frameworks */,
+				CD9B3ADB19B7F265002650D3 /* UIKit.framework in Frameworks */,
+				CD9B3AD719B7F265002650D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9B3AF119B7F265002650D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9B3AF619B7F265002650D3 /* XCTest.framework in Frameworks */,
+				CD9B3AF819B7F265002650D3 /* UIKit.framework in Frameworks */,
+				CD9B3AF719B7F265002650D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD9B3ACA19B7F265002650D3 = {
+			isa = PBXGroup;
+			children = (
+				CD9B3ADC19B7F265002650D3 /* RollTheDice */,
+				CD9B3AFB19B7F265002650D3 /* RollTheDiceTests */,
+				CD9B3AD519B7F265002650D3 /* Frameworks */,
+				CD9B3AD419B7F265002650D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9B3AD419B7F265002650D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9B3AD319B7F265002650D3 /* RollTheDice.app */,
+				CD9B3AF419B7F265002650D3 /* RollTheDiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9B3AD519B7F265002650D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD9B3AD619B7F265002650D3 /* Foundation.framework */,
+				CD9B3AD819B7F265002650D3 /* CoreGraphics.framework */,
+				CD9B3ADA19B7F265002650D3 /* UIKit.framework */,
+				CD9B3AF519B7F265002650D3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD9B3ADC19B7F265002650D3 /* RollTheDice */ = {
+			isa = PBXGroup;
+			children = (
+				CD9B3AE519B7F265002650D3 /* TLCAppDelegate.h */,
+				CD9B3AE619B7F265002650D3 /* TLCAppDelegate.m */,
+				CD9B3AE819B7F265002650D3 /* Main.storyboard */,
+				CD9B3AEB19B7F265002650D3 /* TLCViewController.h */,
+				CD9B3AEC19B7F265002650D3 /* TLCViewController.m */,
+				CD9B3AEE19B7F265002650D3 /* Images.xcassets */,
+				CD9B3ADD19B7F265002650D3 /* Supporting Files */,
+			);
+			path = RollTheDice;
+			sourceTree = "<group>";
+		};
+		CD9B3ADD19B7F265002650D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD9B3ADE19B7F265002650D3 /* RollTheDice-Info.plist */,
+				CD9B3ADF19B7F265002650D3 /* InfoPlist.strings */,
+				CD9B3AE219B7F265002650D3 /* main.m */,
+				CD9B3AE419B7F265002650D3 /* RollTheDice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD9B3AFB19B7F265002650D3 /* RollTheDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9B3B0119B7F265002650D3 /* RollTheDiceTests.m */,
+				CD9B3AFC19B7F265002650D3 /* Supporting Files */,
+			);
+			path = RollTheDiceTests;
+			sourceTree = "<group>";
+		};
+		CD9B3AFC19B7F265002650D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD9B3AFD19B7F265002650D3 /* RollTheDiceTests-Info.plist */,
+				CD9B3AFE19B7F265002650D3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9B3AD219B7F265002650D3 /* RollTheDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9B3B0519B7F265002650D3 /* Build configuration list for PBXNativeTarget "RollTheDice" */;
+			buildPhases = (
+				CD9B3ACF19B7F265002650D3 /* Sources */,
+				CD9B3AD019B7F265002650D3 /* Frameworks */,
+				CD9B3AD119B7F265002650D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollTheDice;
+			productName = RollTheDice;
+			productReference = CD9B3AD319B7F265002650D3 /* RollTheDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9B3AF319B7F265002650D3 /* RollTheDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9B3B0819B7F265002650D3 /* Build configuration list for PBXNativeTarget "RollTheDiceTests" */;
+			buildPhases = (
+				CD9B3AF019B7F265002650D3 /* Sources */,
+				CD9B3AF119B7F265002650D3 /* Frameworks */,
+				CD9B3AF219B7F265002650D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9B3AFA19B7F265002650D3 /* PBXTargetDependency */,
+			);
+			name = RollTheDiceTests;
+			productName = RollTheDiceTests;
+			productReference = CD9B3AF419B7F265002650D3 /* RollTheDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9B3ACB19B7F265002650D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TLC;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					CD9B3AF319B7F265002650D3 = {
+						TestTargetID = CD9B3AD219B7F265002650D3;
+					};
+				};
+			};
+			buildConfigurationList = CD9B3ACE19B7F265002650D3 /* Build configuration list for PBXProject "RollTheDice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9B3ACA19B7F265002650D3;
+			productRefGroup = CD9B3AD419B7F265002650D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9B3AD219B7F265002650D3 /* RollTheDice */,
+				CD9B3AF319B7F265002650D3 /* RollTheDiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9B3AD119B7F265002650D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9B3AEF19B7F265002650D3 /* Images.xcassets in Resources */,
+				CD9B3AE119B7F265002650D3 /* InfoPlist.strings in Resources */,
+				CD9B3AEA19B7F265002650D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9B3AF219B7F265002650D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9B3B0019B7F265002650D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9B3ACF19B7F265002650D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9B3AE719B7F265002650D3 /* TLCAppDelegate.m in Sources */,
+				CD9B3AE319B7F265002650D3 /* main.m in Sources */,
+				CD9B3AED19B7F265002650D3 /* TLCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9B3AF019B7F265002650D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9B3B0219B7F265002650D3 /* RollTheDiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9B3AFA19B7F265002650D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9B3AD219B7F265002650D3 /* RollTheDice */;
+			targetProxy = CD9B3AF919B7F265002650D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD9B3ADF19B7F265002650D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9B3AE019B7F265002650D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD9B3AE819B7F265002650D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9B3AE919B7F265002650D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD9B3AFE19B7F265002650D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9B3AFF19B7F265002650D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9B3B0319B7F265002650D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD9B3B0419B7F265002650D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9B3B0619B7F265002650D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RollTheDice/RollTheDice-Prefix.pch";
+				INFOPLIST_FILE = "RollTheDice/RollTheDice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD9B3B0719B7F265002650D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RollTheDice/RollTheDice-Prefix.pch";
+				INFOPLIST_FILE = "RollTheDice/RollTheDice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD9B3B0919B7F265002650D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RollTheDice.app/RollTheDice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RollTheDice/RollTheDice-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RollTheDiceTests/RollTheDiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD9B3B0A19B7F265002650D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RollTheDice.app/RollTheDice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RollTheDice/RollTheDice-Prefix.pch";
+				INFOPLIST_FILE = "RollTheDiceTests/RollTheDiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9B3ACE19B7F265002650D3 /* Build configuration list for PBXProject "RollTheDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9B3B0319B7F265002650D3 /* Debug */,
+				CD9B3B0419B7F265002650D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9B3B0519B7F265002650D3 /* Build configuration list for PBXNativeTarget "RollTheDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9B3B0619B7F265002650D3 /* Debug */,
+				CD9B3B0719B7F265002650D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD9B3B0819B7F265002650D3 /* Build configuration list for PBXNativeTarget "RollTheDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9B3B0919B7F265002650D3 /* Debug */,
+				CD9B3B0A19B7F265002650D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9B3ACB19B7F265002650D3 /* Project object */;
+}
